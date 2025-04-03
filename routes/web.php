@@ -17,4 +17,13 @@ use App\Http\Controllers\TemplateController;
 
 
 
-route::get('/',[TemplateController::class,'index']);
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/about', function () {
+    return view('Frontend.about');
+})->name('about');
+
+
+
