@@ -75,7 +75,7 @@
 
 
 
-
+    @include('includes.whatsapp')
 
 
 @include('includes.vendor')

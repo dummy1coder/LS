@@ -367,7 +367,7 @@
         </div>
     </div>
     <!-- Vendor End -->
-
+ @include('includes.whatsapp')
     @include('includes.footer')
 
 @endsection

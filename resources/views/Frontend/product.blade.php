@@ -130,7 +130,8 @@
         </div>
     </div>
 
-
+    @include('includes.whatsapp')
+    
 @include('includes.vendor')
 
 @include('includes.footer')
