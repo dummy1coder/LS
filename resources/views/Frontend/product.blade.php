@@ -20,6 +20,7 @@
             </div>
         </div>
 
+@include('includes.search')
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -138,7 +139,8 @@
         </div>
     </div>
 
-
+    @include('includes.whatsapp')
+    
 @include('includes.vendor')
 
 @include('includes.footer')

@@ -21,6 +21,8 @@
             </div>
         </div>
 
+@include('includes.search')
+
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -53,7 +55,7 @@
                             <h4 class="text-primary mb-0">+254 711 667 919</h4>
                         </div>
                     </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Demo</a>
+                    <a href="{{ route('quote') }}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Demo</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -65,6 +67,8 @@
     </div>
 
 </div>
+
+@include('includes.whatsapp')
 
 @include('includes.vendor')
 

@@ -19,7 +19,7 @@
                         <a href="{{ route('client') }}" class="dropdown-item">Top Clients</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
             </div>
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
             <a href="" class="btn btn-primary py-2 px-4 ms-3">Access Demo</a>
