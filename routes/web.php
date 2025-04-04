@@ -46,3 +46,11 @@ Route::get('/client', function () {
 Route::get('/service', function () {
     return view('Frontend.service');
 })->name('service');
+
+Route::get('/contact', function () {
+    return view('Frontend.contact');
+})->name('contact');
+
+Route::get('/quote', function () {
+    return view('Frontend.quote');
+})->name('quote');
