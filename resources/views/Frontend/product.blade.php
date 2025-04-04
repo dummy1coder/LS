@@ -11,6 +11,7 @@
 
 @include('includes.carousel')
 
+@include('includes.search')
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
