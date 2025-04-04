@@ -18,6 +18,8 @@
 
 @include('includes.about')
 
+@include('includes.contact')
+
 @include('includes.features')
 
 @include('includes.service')
