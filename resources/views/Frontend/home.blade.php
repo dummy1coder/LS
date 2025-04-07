@@ -13,7 +13,7 @@
 
 @include('includes.search')
 
-
+@include('includes.demo')
     <!-- Facts Start -->
     <div class="container-fluid facts py-5 pt-lg-0">
         <div class="container py-5 pt-lg-0">

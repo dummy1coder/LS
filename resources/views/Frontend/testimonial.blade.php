@@ -8,7 +8,8 @@
     </div>
     <!-- Spinner End -->
 @include('includes.topbar')
-
+@include('includes.search')
+@include('includes.demo')
 <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
