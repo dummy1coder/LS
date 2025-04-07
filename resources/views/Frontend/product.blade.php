@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class=" fas fa-school text-white"></i>
                         </div>
                         <h4 class="mb-3">Learnsoft School ERP</h4>
                         <p class="m-0"> 
@@ -61,7 +61,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-church text-white"></i>
                         </div>
                         <h4 class="mb-3">Luminary Church ERP</h4>
                         <p class="m-0">
@@ -90,7 +90,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-users-cog text-white"></i>
                         </div>
                         <h4 class="mb-3">Belio HR and Payroll</h4>
                         <p class="m-0">
@@ -119,7 +119,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-users text-white"></i>
                         </div>
                         <h4 class="mb-3">Chamacove ERP</h4>
                         <p class="m-0">
@@ -148,7 +148,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
         <div class="service-icon">
-            <i class="text-white"></i>
+            <i class="fas fa-building text-white"></i>
         </div>
         <h4 class="mb-3">Lux Haven ERP</h4>
        
@@ -177,7 +177,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-cash-register text-white"></i>
                         </div>
                         <h4 class="mb-3">TOPPOS POS</h4>
                         <p class="m-0">
@@ -205,7 +205,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-home text-white"></i>
                         </div>
                         <h4 class="mb-3">Rentezy Property Management ERP</h4>
                         <p class="m-0">
@@ -233,7 +233,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class=" text-white"></i>
+                            <i class="fas fa-file-alt text-white"></i>
                         </div>
                         <h4 class="mb-3">Slickdocs EDMS</h4>
                         <p class="m-0">
