@@ -4,11 +4,9 @@
                 <div class="owl-carousel vendor-carousel">
                     <img src="img/Learnify App Logo.jpg" alt="">
                     <img src="img/Lserp Logo.jpg" alt="">
-                    <img src="img/Lux Haven PMS Logo - Copy.png" alt="">
                     <img src="img/Onifu Farm Management Logo.png" alt="">
                     <img src="img/ProEdge CRM.jpg" alt="">
                     <img src="img/Toppos - Logo.png" alt="">
-                    <img src="img/WaitLess QMS Logo.jpg" alt="">
                 </div>
             </div>
         </div>
