@@ -47,7 +47,7 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Graphic Design</h5>
       </div>
       <div class="modal-body">
-        Content on Graphic Design
+       Learnsoft helps businesses, individuals, and organizations effectively convey messages, ideas, and branding through logo creation and branding to digital marketing materials, advertisements, and product packaging.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -74,7 +74,7 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Web Development</h5>
       </div>
       <div class="modal-body">
-        Content on Web Development
+        Learnsoft builds, maintains, and optimizes websites and web applications
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -101,7 +101,7 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Apps Development</h5>
       </div>
       <div class="modal-body">
-        Content on Apps Development
+        Learnsoft Beliotech Solutions creates, designs, and maintains applications for mobile devices, desktops, or web platforms.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -129,7 +129,7 @@
         <h5 class="modal-title" id="luxHavenModalLabel">SEO Optimization</h5>
       </div>
       <div class="modal-body">
-        Content on SEO Optimization
+        Learnsoft Beliotech Solutions improves the visibility of a website or web page on search engines.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>

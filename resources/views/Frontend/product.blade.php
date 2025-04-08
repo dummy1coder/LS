@@ -49,7 +49,9 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Learnsoft School ERP</h5>
       </div>
       <div class="modal-body">
-        Content on Learnsoft School ERP
+        <p>
+         Learnsoft School ERP is designed to streamline and integrate the management of various administrative tasks within a school. It helps school administrators, teachers, and staff manage day-to-day operations efficiently, while also improving communication between students, parents, and the school community.
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -78,7 +80,9 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Luminary Church ERP</h5>
       </div>
       <div class="modal-body">
-        Content on Luminary Church ERP
+        <p>
+        Luminary Chrch ERP is designed to help churches manage their various administrative, financial, and operational tasks in a centralized way. It typically includes modules for managing finances, memberships, event scheduling, donations, communication, and more.
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -107,7 +111,9 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Belio HR and Payroll</h5>
       </div>
       <div class="modal-body">
-        Content on Belio HR and Payroll
+        <p>
+         Belio HR and Payroll is designed to streamline and automate the human resources (HR) and payroll functions of an organization. These system helps HR team manage employees, payroll, benefits, performance, compliance, and other HR-related tasks more efficiently.
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -136,7 +142,9 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Chamacove ERP</h5>
       </div>
       <div class="modal-body">
-        Content on Chamacove ERP
+        <p>
+         Chamacove ERP is designed to help streamline the management of Chama groups by automating key processes like accounting, member management, loan tracking, and financial reporting.
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -221,7 +229,9 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Rentezy Property Management ERP</h5>
       </div>
       <div class="modal-body">
-        Content on Rentezy Property Management ERP
+        <p>
+         Rentezy Property Management ERP is designed to help real estate owners, property managers, and real estate companies efficiently manage their properties, tenants, leases, maintenance tasks, finances, and overall operations. 
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
@@ -249,7 +259,7 @@
         <h5 class="modal-title" id="luxHavenModalLabel">Slickdocs EDMS</h5>
       </div>
       <div class="modal-body">
-        Content on Slickdocs EDMS
+        Slickdocs EDMS is designed to manage, store, track, and organize electronic documents and images.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
