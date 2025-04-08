@@ -8,22 +8,18 @@
     </div>
     <!-- Spinner End -->
 @include('includes.topbar')
-<<<<<<< HEAD
-
 @include('includes.navbar')
 
-<div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 0px;">
-=======
-@include('includes.search')
-@include('includes.demo')
 <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
->>>>>>> a7a627ef4e0963809a34abcad156692e9022c2fc
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <!--h1 class="display-4 text-white animated zoomIn">Testimonials</h1-->
+                    <h1 class="display-4 text-white animated zoomIn">Testimonials</h1>
                 </div>
             </div>
         </div>
+
+@include('includes.search')
+@include('includes.demo')
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
