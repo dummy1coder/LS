@@ -17,6 +17,37 @@
                 </div>
                 <div class="col-lg-8 col-md-6">
                     <div class="row gx-5">
+                        
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="{{ route('home') }}" ><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                <a class="text-light mb-2" href="{{ route('about') }}" ><i class="bi bi-arrow-right text-primary me-2"></i>About</a>
+                <a class="text-light mb-2" href="{{ route('product') }}" ><i class="bi bi-arrow-right text-primary me-2"></i>Products</a>
+                <a class="text-light mb-2" href="{{ route('service') }}" ><i class="bi bi-arrow-right text-primary me-2"></i>Services</a>
+                <div class="nav-item dropdown">
+                    <a class="text-light mb-2" href="#" data-bs-toggle="dropdown"><i class="bi bi-arrow-right text-primary me-2"></i>Resources</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
+                        <a href="{{ route('client') }}" class="dropdown-item">Top Clients</a>
+                    </div>
+                </div>
+                <a class="text-light mb-2" href="{{ route('contact') }}" ><i class="bi bi-arrow-right text-primary me-2"></i>Contact</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="{{ route('home') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="{{ route('about') }}"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="{{ route('service') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light" href="{{ route('contact') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Get In Touch</h3>
@@ -38,36 +69,6 @@
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Quick Links</h3>
-                            </div>
-                            <div class="link-animated d-flex flex-column justify-content-start">
-                            <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('product') }}" class="nav-item nav-link">Products</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                        <a href="{{ route('client') }}" class="dropdown-item">Top Clients</a>
-                    </div>
-                </div>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Popular Links</h3>
-                            </div>
-                            <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="{{ route('home') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="{{ route('about') }}"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="{{ route('service') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light" href="{{ route('contact') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
