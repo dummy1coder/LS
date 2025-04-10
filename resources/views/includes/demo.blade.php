@@ -10,7 +10,7 @@
                 <div class="container">
                     <div class="row justify-content-center g-4">
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href=" https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">School</p>
                                 </div>

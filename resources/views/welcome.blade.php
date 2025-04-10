@@ -14,6 +14,8 @@
 
 @include('includes.search')
 
+@include('includes.demo')
+
 @include('includes.facts')
 
 @include('includes.about')

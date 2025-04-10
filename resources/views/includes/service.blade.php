@@ -12,23 +12,26 @@
                         </div>
                         <h4 class="mb-3">Graphic Design</h4>
                         <p class="m-0"></p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <a type="button" class="btn btn-lg btn-primary rounded hover-arrow" data-bs-toggle="modal" data-bs-target="#graphicModal">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-pie text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Data Analytics</h4>
-                        <p class="m-0"></p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+                <div class="modal fade" id="graphicModal" tabindex="-1" aria-labelledby="graphicModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="luxHavenModalLabel">Graphic Design</h5>
+      </div>
+      <div class="modal-body">
+       Learnsoft helps businesses, individuals, and organizations effectively convey messages, ideas, and branding through logo creation and branding to digital marketing materials, advertisements, and product packaging.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
@@ -36,11 +39,26 @@
                         </div>
                         <h4 class="mb-3">Web Development</h4>
                         <p class="m-0"></p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <a type="button" class="btn btn-lg btn-primary rounded hover-arrow" data-bs-toggle="modal" data-bs-target="#webModal">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                     </div>
                 </div>
+                <div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="webModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="luxHavenModalLabel">Web Development</h5>
+      </div>
+      <div class="modal-body">
+        Learnsoft builds, maintains, and optimizes websites and web applications
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
@@ -48,11 +66,26 @@
                         </div>
                         <h4 class="mb-3">Apps Development</h4>
                         <p class="m-0"></p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <a type="button" class="btn btn-lg btn-primary rounded hover-arrow" data-bs-toggle="modal" data-bs-target="#appsModal">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                     </div>
                 </div>
+                <div class="modal fade" id="appsModal" tabindex="-1" aria-labelledby="appsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="luxHavenModalLabel">Apps Development</h5>
+      </div>
+      <div class="modal-body">
+        Learnsoft Beliotech Solutions creates, designs, and maintains applications for mobile devices, desktops, or web platforms.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
@@ -61,10 +94,26 @@
                         <h4 class="mb-3">SEO Optimization</h4>
                         <p class="m-0"></p>
                         <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <a type="button" class="btn btn-lg btn-primary rounded hover-arrow" data-bs-toggle="modal" data-bs-target="#seoModal">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
                     </div>
                 </div>
+                <div class="modal fade" id="seoModal" tabindex="-1" aria-labelledby="seoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="luxHavenModalLabel">SEO Optimization</h5>
+      </div>
+      <div class="modal-body">
+        Learnsoft Beliotech Solutions improves the visibility of a website or web page on search engines.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                         <h3 class="text-white mb-3">Call Us For Quote and Demo</h3>
