@@ -17,49 +17,49 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Church</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Library</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Point of Sale</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Rentals</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Spa</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Hr & Payroll</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href=" " class="text-decoration-none">
+                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
                                 <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
                                     <p class="mb-0">Chama</p>
                                 </div>
