@@ -1,5 +1,5 @@
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5 mb-5">
+<div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-2 mb-2">
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
                     <img src="img/Onifu Farm Management Logo.png" alt="">
