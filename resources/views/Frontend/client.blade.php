@@ -48,14 +48,14 @@
                         </div>
                         <div class="text-center py-4">
                             <h4 class="text-primary">Embu Top Mark Academy</h4>
-                            <p class="text-uppercase m-0">A prestigious school, top performer which has embraced Learnsoft SchoolERP for transformation.</p>
+                            <p class="text-uppercase m-0">Designation</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/premese.jpeg" alt="">
+                            <img class="img-fluid w-100" src="img/premese.jpg" alt="">
                         </div>
                         <div class="text-center py-4">
                             <h4 class="text-primary">Premese Academy</h4>
