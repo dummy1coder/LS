@@ -49,7 +49,7 @@
                         </div>
                         <h4 class="mb-3">Embu Top Mark Academy</h4>
                         <p class="m-0">
-                        Embu County - Based in EMbu county, this school has held on to Learnsoft ERPs in their processes.
+                        Embu County - Based in Embu county, this school has held on to Learnsoft ERPs in their processes.
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
