@@ -22,68 +22,57 @@
 
 @include('includes.search')
 @include('includes.demo')
+
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h1 class="fw-bold text-primary text-uppercase"> Top Clients</h1>
+                <h5 class="fw-bold text-primary text-uppercase">Top Clients</h5>
+                <h1 class="mb-0">Clients we've helped achieve their business goals and drive growth</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" text-white"></i>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">AIC Malivani</h4>
-                        <p class="m-0"> 
-                        Makueni County - A.I.C Malivani Boarding Primary School is a top performing public school in Makueni County
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">AIC Malivani</h4>
+                            <p class="text-uppercase m-0">Boarding Primary School is a top performing public school in Makueni County</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" text-white"></i>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/2.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">Embu Top Mark Academy</h4>
-                        <p class="m-0">
-                        Embu County - Based in Embu county, this school has held on to Learnsoft ERPs in their processes.
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Embu Top Mark Academy</h4>
+                            <p class="text-uppercase m-0">A prestigious school, top performer which has embraced Learnsoft SchoolERP for transformation.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" text-white"></i>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/3.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">Premese Academy</h4>
-                        <p class="m-0">
-                        Makueni County - A prestigious school, top performer which has embraced Learnsoft SchoolERP for transformation.
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Premese Academy</h4>
+                            <p class="text-uppercase m-0">A prestigious school, top performer which has embraced Learnsoft SchoolERP for transformation.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" text-white"></i>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/3.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">St. Teresia Academy</h4>
-                        <p class="m-0">
-                        Kiambu County - A great school and a performer that uses Learnsoft products in it's operations.
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">ST.Teresia Academy</h4>
+                            <p class="text-uppercase m-0">A great school and a performer that uses Learnsoft products in it's operations.</p>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
