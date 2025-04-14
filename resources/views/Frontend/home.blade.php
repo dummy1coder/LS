@@ -25,7 +25,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white mb-0">Happy Clients</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">100</h1>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">320</h1>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                             <i class="fa fa-check text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Projects Done</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">100</h1>
+                            <h5 class="text-primary mb-0">Software Products</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">15</h1>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white mb-0">Win Awards</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">100</h1>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">20</h1>
                         </div>
                     </div>
                 </div>
@@ -115,17 +115,17 @@
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-cubes text-white"></i>
+                                <i class="fas fa-pencil-ruler uiux-icon text-white"></i>
                             </div>
-                            <h4>Best In Industry</h4>
-                            <p class="mb-0"></p>
+                            <h4>Intuitive UI/UX</h4>
+                            <p class="mb-0">Experience a user interface and user experience that are designed with simplicity and ease of use in mind.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-award text-white"></i>
+                                <i class="fa fa-cloud text-white"></i>
                             </div>
-                            <h4>Award Winning</h4>
-                            <p class="mb-0"></p>
+                            <h4>On-Cloud</h4>
+                            <p class="mb-0">Access your data and services from anywhere, anytime with our reliable and secure on-cloud solutions.</p>
                         </div>
                     </div>
                 </div>
@@ -140,15 +140,15 @@
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
-                            <h4>Professional Staff</h4>
-                            <p class="mb-0"></p>
+                            <h4>Affordable</h4>
+                            <p class="mb-0">Benefit from our cost-effective solutions that deliver high-quality performance without breaking the bank.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
-                            <h4>24/7 Support</h4>
-                            <p class="mb-0"></p>
+                            <h4>Trusted Support</h4>
+                            <p class="mb-0">Rely on our 24/7 support services to ensure you receive prompt assistance and solutions whenever you need them.</p>
                         </div>
                     </div>
                 </div>
@@ -328,10 +328,9 @@
                                 </div>
                                 <div class="col-12">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Web Development</option>
-                                        <option value="2">App Development</option>
-                                        <option value="3">SEO</option>
+                                        <option selected>Select Inquiry</option>
+                                        <option value="1">Quote</option>
+                                        <option value="2">Demo</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
@@ -360,7 +359,7 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/.jpg" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="img/logo.png" style="width: 60px; height: 60px;" >
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">John Waweru</h4>
                             <small class="text-uppercase">Director, ST.Peter's School</small>
@@ -372,7 +371,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/.jpg" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="img/logo.png" style="width: 60px; height: 60px;" >
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Jael Muoki</h4>
                             <small class="text-uppercase">Headteacher, Primerose Academy</small>
@@ -384,7 +383,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/.jpg" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="img/logo.png" style="width: 60px; height: 60px;" >
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Jane Kalonzo</h4>
                             <small class="text-uppercase">COO, Takwibu Sacco</small>
@@ -396,7 +395,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/.jpg" style="width: 60px; height: 60px;" >
+                        <img class="img-fluid rounded" src="img/logo.png" style="width: 60px; height: 60px;" >
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Wakio Emma</h4>
                             <small class="text-uppercase">Founder, Wakima Academy</small>
