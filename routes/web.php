@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Http\Controllers\MailController;
 
+use App\Http\Controllers\SubscriptionController;
+
 
 
 /*
@@ -62,6 +64,8 @@ Route::get('/quote', function () {
 })->name('quote');
 
 Route::post('/send-contact', [MailController::class, 'sendContact'])->name('send.contact');
+
+Route::post('/subscribe', [SubscriptionController::class, 'store']);
 
 /*Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
