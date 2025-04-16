@@ -4,6 +4,12 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\TemplateController;
 
+use Illuminate\Support\Facades\Mail;
+
+use App\Http\Controllers\MailController;
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -54,3 +60,13 @@ Route::get('/contact', function () {
 Route::get('/quote', function () {
     return view('Frontend.quote');
 })->name('quote');
+
+Route::post('/send-contact', [MailController::class, 'sendContact'])->name('send.contact');
+
+/*Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();*/

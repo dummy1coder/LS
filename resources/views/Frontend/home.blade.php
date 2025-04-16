@@ -294,7 +294,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote and Demo</h5>
+                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote/Demo</h5>
                         <h1 class="mb-0">Need A Free Quote/Demo? Please Feel Free to Contact Us</h1>
                     </div>
                     <div class="row gx-3">
@@ -318,7 +318,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form>
+                        <form action=>
                             <div class="row g-3">
                                 <div class="col-xl-12">
                                     <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">

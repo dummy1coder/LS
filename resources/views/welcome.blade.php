@@ -20,8 +20,6 @@
 
 @include('includes.about')
 
-@include('includes.contact')
-
 @include('includes.features')
 
 @include('includes.service')
@@ -32,14 +30,12 @@
 
 @include('includes.vendor')
 
+@include('includes.whatsapp')
+
+@include('includes.contact')
+    <!-- Back to Top >
+    <a href="{{ route('home') }}" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a-->
+
 @include('includes.footer')
-    
-
-
-    <!-- Back to Top -->
-    <a href="{{ route('home') }}" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-    
-
 
 @endsection

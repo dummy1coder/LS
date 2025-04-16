@@ -21,67 +21,64 @@
 
 @include('includes.search')
 @include('includes.demo')
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote and Demo</h5>
-                        <h1 class="mb-0">Need A Free Quote/Demo? Please Feel Free to Contact Us</h1>
-                    </div>
-                    <div class="row gx-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
-                        </div>
-                    </div>
-                    <p class="mb-4"></p>
-                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+254 711 667 919</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Web Development</option>
-                                        <option value="2">App Development</option>
-                                        <option value="3">SEO</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote/Demo</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<div class="row align-items-center">
+    <div class="col-lg-6 mb-4 mb-lg-0">
+        <h6 class="text-orange fw-bold text-uppercase">Request A Quote/Demo</h6>
+        <h2 class="fw-bold mb-3">Need A Free Quote/Demo? Please Feel Free to Contact Us</h2>
+        <div class="mb-3 d-flex align-items-center">
+            <i class="fa fa-reply fa-lg me-2 text-orange"></i>
+            <span>Reply within 24 hours</span>
+        </div>
+        <div class="mb-3 d-flex align-items-center">
+            <i class="fa fa-phone fa-lg me-2 text-orange"></i>
+            <span>24 hrs telephone support</span>
+        </div>
+        <div class="d-flex align-items-center bg-info p-3 rounded text-white">
+            <i class="fa fa-phone-alt fa-2x me-3"></i>
+            <div>
+                <p class="mb-1">Call to ask any question</p>
+                <h4 class="mb-0 fw-bold text-white">+254 711 667 919</h4>
             </div>
         </div>
     </div>
 
+    <div class="col-lg-6">
+        <form action="{{ route('send.contact') }}" method="POST" style="background-color: #03A9F4; padding: 30px; border-radius: 6px;">
+            @csrf
 
+            @if (session('success'))
+                <div class="alert alert-success text-center mb-3">{{ session('success') }}</div>
+            @endif
 
+            @if (session('error'))
+                <div class="alert alert-danger text-center mb-3">{{ session('error') }}</div>
+            @endif
+
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required style="background-color: #E6F7FF; border: none;">
+            </div>
+            <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required style="background-color: #E6F7FF; border: none;">
+            </div>
+            <div class="mb-3">
+                <select name="subject" class="form-select" required style="background-color: #E6F7FF; border: none;">
+                    <option value="" disabled selected>Select Inquiry</option>
+                    <option value="Quote Request">Quote Request</option>
+                    <option value="Demo Request">Demo Request</option>
+                    <option value="General Question">General Question</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <textarea name="message" class="form-control" rows="4" placeholder="Message" required style="background-color: #E6F7FF; border: none;"></textarea>
+            </div>
+            <div class="mb-3">
+                <button class="btn w-100 text-white" style="background-color: #002147;" type="submit">
+                    Request A Quote/Demo
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
 
     @include('includes.whatsapp')
 

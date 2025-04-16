@@ -3,7 +3,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote and Demo</h5>
+                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote/Demo</h5>
                         <h1 class="mb-0">Need A Free Quote/Demo? Please Feel Free to Contact Us</h1>
                     </div>
                     <div class="row gx-3">
