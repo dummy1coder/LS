@@ -1,16 +1,15 @@
 <div class="chatbot-popup">
     <!-- Toggle Button -->
-    <form action="#chatCollapse" method="GET">
-        <button type="submit" class="btn btn-primary chatbot-toggle-btn">
-            💬
-        </button>
-    </form>
+    <button type="button" class="btn btn-primary chatbot-toggle-btn" onclick="openChat()">
+        💬
+    </button>
 
     <!-- Chat Box -->
-    <div class="collapse mt-2 show" id="chatCollapse">
+    <div class="chatbox-container mt-2 d-none" id="chatCollapse">
         <div class="card shadow">
-            <div class="card-header bg-primary text-white py-2 px-3">
+        <div class="card-header bg-primary text-white py-2 px-3 d-flex justify-content-between align-items-center">
                 <strong>LearnsoftBot</strong>
+                <button type="button" class="btn-close btn-close-white" aria-label="Close" onclick="closeChat()"></button>
             </div>
             <div class="card-body" style="max-height: 250px; overflow-y: auto;">
                 @if(session('history'))
@@ -39,3 +38,12 @@
         </div>
     </div>
 </div>
+<script>
+    function openChat() {
+        document.getElementById('chatCollapse').classList.remove('d-none');
+    }
+
+    function closeChat() {
+        document.getElementById('chatCollapse').classList.add('d-none');
+    }
+</script>

@@ -12,7 +12,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+254 711 667 919</h4>
+                            <h6 class="text-primary mb-0">+254 711 667 919</h6>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email to get free quote</h5>
-                            <h4 class="text-primary mb-0">info@learnsoftbeliotechsolutions.<br>.ke</h4>
+                            <h6 class="text-primary mb-0">info@learnsoftbeliotechsolutions.ke</h6>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visit our office</h5>
-                            <h4 class="text-primary mb-0">Westwoods Building, Parklands - Nairobi</h4>
+                            <h6 class="text-primary mb-0">Westwoods Building, Parklands - Nairobi</h6>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                     <iframe class="position-relative rounded w-100 h-100"
                         src="https://www.google.pl/maps/place/The+Westwood/@-1.2597996,36.8011617,17z/data=!3m1!4b1!4m6!3m5!1s0x182f176ab788de03:0x6ce6930ee66eeb8c!8m2!3d-1.259805!4d36.8037366!16s%2Fg%2F11c1ndx18h?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D"
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                        tabindex="0" ></iframe>
                 </div>
             </div>
         </div>

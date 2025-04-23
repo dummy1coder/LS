@@ -35,7 +35,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+254 711 667 919</h4>
+                            <h6 class="text-primary mb-0">+254 711 667 919</h6>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email to get free quote</h5>
-                            <h4 class="text-primary mb-0">info@learnsoftbeliotechsolutions.<br>.ke</h4>
+                            <h6 class="text-primary mb-0">info@learnsoftbeliotechsolutions.ke</h6>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visit our office</h5>
-                            <h4 class="text-primary mb-0">Westwoods Building, Parklands - Nairobi</h4>
+                            <h6 class="text-primary mb-0">Westwoods Building, Parklands - Nairobi</h6>
                         </div>
                     </div>
                 </div>
