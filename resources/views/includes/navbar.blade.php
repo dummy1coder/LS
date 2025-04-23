@@ -22,9 +22,29 @@
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
             </div>
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <button type="button" class="btn btn-primary py-2 px-4 ms-3" data-bs-toggle="modal" data-bs-target="#demoModal">
-    Access Demo
-</button>
+
+            <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form method="GET" action="{{ route('search') }}">
+        @csrf
+        <div class="modal-header">
+          <h5 class="modal-title" id="searchModalLabel">Search</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <input type="text" name="query" class="form-control" placeholder="Enter search term..." required>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+            <button type="button" class="btn btn-primary py-2 px-4 ms-3" data-bs-toggle="modal" data-bs-target="#demoModal">Access Demo</button>
         </div>
     </nav>
 </div>

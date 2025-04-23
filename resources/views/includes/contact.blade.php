@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
                     <iframe class="position-relative rounded w-100 h-100"
-                        src=""
+                        src="https://www.google.pl/maps/place/The+Westwood/@-1.2597996,36.8011617,17z/data=!3m1!4b1!4m6!3m5!1s0x182f176ab788de03:0x6ce6930ee66eeb8c!8m2!3d-1.259805!4d36.8037366!16s%2Fg%2F11c1ndx18h?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D"
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>

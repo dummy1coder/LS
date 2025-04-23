@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Http\Controllers\MailController;
 
-use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\SearchController;
 
-
+use App\Http\Controllers\ChatbotController;
 
 /*
 |--------------------------------------------------------------------------
@@ -65,12 +65,8 @@ Route::get('/quote', function () {
 
 Route::post('/send-contact', [MailController::class, 'sendContact'])->name('send.contact');
 
-Route::post('/subscribe', [SubscriptionController::class, 'store']);
+Route::get('/search', [SearchController::class, 'index'])->name('search');
 
-/*Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();*/
+Route::get('/chat', [ChatbotController::class, 'show']);
+Route::post('/chat', [ChatbotController::class, 'send'])->name('chat.send');
+Route::post('/chat/toggle', [ChatbotController::class, 'toggle'])->name('chat.toggle');

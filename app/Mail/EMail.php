@@ -41,7 +41,7 @@ class EMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.mail', // ✅ Replace this with the actual path to your Blade view
+            view: 'mail.mail', // ✅ Replace this with the actual path to your Blade view
             with: ['data' => $this->data], // ✅ Pass the data to the view
         );
     }

@@ -288,7 +288,7 @@
     <!-- Service End -->
 
 
-    <!-- Quote Start -->
+    <!-- Quote Start >
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -346,7 +346,7 @@
             </div>
         </div>
     </div>
-    <!-- Quote End -->
+    < Quote End -->
 
 
     <!-- Testimonial Start -->
@@ -410,9 +410,13 @@
     </div>
     <!-- Testimonial End -->
 
+@include('includes.contact')
+
 @include('includes.vendor')
 
 @include('includes.whatsapp')
+
+@include('includes.chat')
 
 @include('includes.footer')
 

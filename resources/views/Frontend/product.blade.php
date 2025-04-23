@@ -274,9 +274,11 @@
         </div>
     </div>
 
-    @include('includes.whatsapp')
+@include('includes.whatsapp')
     
 @include('includes.vendor')
+
+@include('includes.chat')
 
 @include('includes.footer')
 

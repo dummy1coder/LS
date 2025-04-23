@@ -36,6 +36,9 @@
     <!-- Back to Top >
     <a href="{{ route('home') }}" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a-->
 
+
+@include('includes.chat')
+
 @include('includes.footer')
 
 @endsection
