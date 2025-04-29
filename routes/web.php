@@ -12,6 +12,9 @@ use App\Http\Controllers\SearchController;
 
 use App\Http\Controllers\ChatbotController;
 
+use App\Http\Controllers\ProductController;
+
+use App\Http\Controllers\ServiceController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,9 +42,7 @@ Route::get('/home', function () {
 })->name('home');
 
 
-Route::get('/product', function () {
-    return view('Frontend.product');
-})->name('product');
+Route::get('/product', [ProductController::class, 'index'])->name('product');
 
 Route::get('/testimonial', function () {
     return view('Frontend.testimonial');
@@ -51,9 +52,8 @@ Route::get('/client', function () {
     return view('Frontend.client');
 })->name('client');
 
-Route::get('/service', function () {
-    return view('Frontend.service');
-})->name('service');
+
+Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
 Route::get('/contact', function () {
     return view('Frontend.contact');
@@ -70,3 +70,6 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/chat', [ChatbotController::class, 'show']);
 Route::post('/chat', [ChatbotController::class, 'send'])->name('chat.send');
 Route::post('/chat/toggle', [ChatbotController::class, 'toggle'])->name('chat.toggle');
+
+
+Route::get('/products', [ProductController::class, 'index']);
