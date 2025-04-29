@@ -29,9 +29,13 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card text-center h-100">
                     <div class="card-body d-flex flex-column justify-content-center">
-                        <!--div class="mb-3">
-                            <img src="{{ asset('icons/'.$product->icon) }}" alt="{{ $product->name }}" style="width: 60px;">
-                        </div-->
+                        <div class="mb-3">
+                        @if(Str::startsWith($product->icon, 'http'))
+                                <img src="{{ $product->icon }}" alt="{{ $product->title }}" style="width:50px;">
+                            @else
+                                <i class="{{ $product->icon }} fa-3x text-warning"></i>
+                            @endif
+                        </div>
                         <h5 class="card-title">{{ $product->name }}</h5>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#productModal{{ $product->id }}">

@@ -15,6 +15,8 @@ use App\Http\Controllers\ChatbotController;
 use App\Http\Controllers\ProductController;
 
 use App\Http\Controllers\ServiceController;
+
+use App\Http\Controllers\DemoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -73,3 +75,5 @@ Route::post('/chat/toggle', [ChatbotController::class, 'toggle'])->name('chat.to
 
 
 Route::get('/products', [ProductController::class, 'index']);
+
+Route::get('/demo/{slug}', [DemoController::class, 'show'])->name('demo.show');

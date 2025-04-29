@@ -8,64 +8,16 @@
             <div class="modal-body text-center text-white">
                 <h5 class="modal-title mb-4" id="demoModalLabel">Choose a Demo</h5>
                 <div class="container">
-                    <div class="row justify-content-center g-4">
-                        <div class="col-md-3">
-                            <a href=" https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">School</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Church</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Library</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Point of Sale</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Rentals</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Spa</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Hr & Payroll</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://learnsoftbeliotechsolutions.co.ke/" class="text-decoration-none">
-                                <div class="bg-primary text-white p-4 rounded shadow text-center h-100">
-                                    <p class="mb-0">Chama</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="row">
+    @foreach($demos as $demo)
+        <div class="col-md-3 mb-3">
+            <a href="{{ route('demo.show', $demo->slug) }}" class="btn btn-primary w-100 py-3">
+                {{ $demo->name }}
+            </a>
+        </div>
+    @endforeach
+</div>
+
                 </div>
             </div>
         </div>
