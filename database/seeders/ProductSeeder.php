@@ -17,7 +17,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Luminary Church ERP',
-                'icon' => 'bi bi-bank',
+                'icon' => 'bi bi-building',
                 'description' => 'An ERP system tailored for churches and religious organizations.',
             ],
             [

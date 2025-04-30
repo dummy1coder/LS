@@ -22,7 +22,52 @@
 @include('includes.search')
 @include('includes.demo')
 
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<!-- resources/views/products/index.blade.php -->
+<div class="container">
+    <div class="row">
+        @foreach($products as $product)
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card text-center h-100">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <div class="mb-3">
+                        @if(Str::startsWith($product->icon, 'http'))
+                                <img src="{{ $product->icon }}" alt="{{ $product->title }}" style="width:50px;">
+                            @else
+                                <i class="{{ $product->icon }} fa-3x text-warning"></i>
+                            @endif
+                        </div>
+                        <h5 class="card-title">{{ $product->name }}</h5>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#productModal{{ $product->id }}">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="productModal{{ $product->id }}" tabindex="-1" aria-labelledby="productModalLabel{{ $product->id }}" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModalLabel{{ $product->id }}">{{ $product->name }}</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{ $product->description }}
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        @endforeach
+    </div>
+</div>
+
+<!--div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h1 class="fw-bold text-primary text-uppercase"> Products</h1>
@@ -272,7 +317,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
 
 @include('includes.whatsapp')
     
